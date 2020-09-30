@@ -71,7 +71,7 @@
 								<td class="text-center"><c:out value="${employee.country}" /></td>
 								<td class="text-center">
 									<a class="clickme lookinfo"
-									href="editEmployee?eid=${employee.eid}">Update</a></td>
+									href="EmpController?eid=${employee.eid} &action=getbyid">Update</a></td>
 
 							</tr>
 						</c:forEach>

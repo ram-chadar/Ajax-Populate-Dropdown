@@ -58,8 +58,8 @@ if(msg!=null)
 		<div class="row">
 			<div class="col-md-12">
 				<div class="form-resp">
-				<center><a href="ShowEmployee">EMPLOYEE DETAILS</a></center>
-								
+				<%-- <center><a href="ShowEmployee" >EMPLOYEE DETAILS</a></center> --%>
+								<center><a href="EmpController?action=listofemployee" >EMPLOYEE DETAILS</a></center>
 							</div>
 				<form action="EmpController" name="EmpController"
 					class="form-data" method="post" enctype="multipart/form-data">
@@ -113,6 +113,7 @@ if(msg!=null)
 										<%
 											}
 										%>
+										
 									</select>
 								</div>
 
@@ -171,7 +172,7 @@ if(msg!=null)
 									</div> 
 									<div>
 										<button type="submit" class="btn btn-primary btn-block "
-											value="class" name="action">Save</button>
+											value="Save" name="action">Save</button>
 
 
 									</div>
